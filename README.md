@@ -1,101 +1,99 @@
 ---
-📦 README.md
 
-# 🇮🇩 mudahpy
+# mudahpy 🇮🇩
 
-**mudahpy** adalah pustaka Python yang mempermudah penulisan program menggunakan kata-kata dalam bahasa Indonesia. Cocok untuk pemula atau pembelajar yang ingin lebih cepat memahami logika pemrograman tanpa terhambat istilah asing.
-
----
-
-## ✨ Fitur
-
-- Ganti kata kunci/fungsi umum ke dalam Bahasa Indonesia
-- Sintaks seperti `jika`, `untuk`, `selama`, `kembali`, `tulis`, dll.
-- Dukungan struktur `if-elif-else`, `for`, `while`, dan `class`
-- Fungsi matematika dasar (`tambah`, `kurang`, `kali`, `bagi`)
-- Perpustakaan ringan dan mudah diperluas
+**mudahpy** adalah pustaka Python berbahasa Indonesia yang bertujuan untuk mempermudah pemrograman bagi pemula atau pengguna yang lebih nyaman dengan bahasa Indonesia.  
+Proyek ini mengubah kata kunci, fungsi umum, dan struktur kontrol seperti `if`, `for`, `while`, `def`, `lambda`, dan lainnya agar lebih mudah dipahami.
 
 ---
 
-## 🔧 Instalasi (Lokal)
+## ✨ Contoh Penggunaan
 
-Clone dan pasang secara lokal:
-
-```bash
-git clone https://github.com/namakamu/mudahpy.git
-cd mudahpy
-pip install .
-
-Atau mode edit:
-
-pip install -e .
-
-
----
-
-🧪 Contoh Penggunaan
-
-contoh.py
-
+```python
 from mudahpy import *
 
-jika(Benar,
-    aksi_utama=lambda: tulis("Halo, dunia!"),
-    aksi_default=lambda: tulis("Ini tidak muncul")
+# Percabangan
+jika(
+    5 > 3,
+    aksi_utama=atau(tulis, "5 lebih besar dari 3"),
+    aksi_default=atau(tulis, "5 tidak lebih besar dari 3")
 )
 
-untuk("item", [1, 2, 3], lambda x: tulis("Angka:", x))
+# Perulangan for
+untuk("angka", [1, 2, 3], lambda x: tulis("Angka ke:", x))
 
+# Perulangan while
 x = 0
 selama(lambda: x < 3, lambda: (
-    tulis("x =", x),
+    tulis("Nilai x =", x),
     globals().__setitem__("x", x + 1)
 ))
 
-@kelas
-class Sapa:
-    def mulai(self, nama):
-        self.nama = nama
-        tulis("Halo,", self.nama)
+# Fungsi dan Matematika
+def halo(nama):
+    tulis("Halo,", nama)
 
-orang = Sapa("Rina")
-
-
----
-
-🧰 Kata Kunci yang Didukung
-
-Bahasa Indonesia	Python asli
-
-tulis	print
-panjang	len
-kembali	return
-jika	if/elif/else
-untuk	for
-selama	while
-Benar	True
-Salah	False
-TidakAda	None
-kelas + mulai	class + __init__
+halo("Suji")
+tulis("Penjumlahan:", tambah(3, 5))
 
 
 ---
 
-🧑‍💻 Kontribusi
+📦 Instalasi
 
-Saran kata baru? Boleh banget! Fork, tambahkan, dan kirim pull request 😄
-Contoh ide: cetak, hapus, bandingkan, dll.
+Untuk saat ini, clone dan pasang secara lokal:
 
+git clone https://github.com/username/mudahpy.git
+cd mudahpy
+pip install .
 
----
-
-⚠️ Catatan
-
-Ini adalah pustaka edukatif. Untuk produksi, tetap direkomendasikan menggunakan sintaks Python standar.
+(Atau langsung dari direktori lokal saat ngoding, tambahkan ke PYTHONPATH.)
 
 
 ---
 
-🪪 Lisensi
+📁 Struktur Proyek
 
-MIT © 2025 - Flaming-hell
+mudahpy/
+│
+├── mudahpy/           # Pustaka utama
+│   └── __init__.py    # Isi fungsi dan alias dalam bahasa Indonesia
+│
+├── contoh/            # Contoh penggunaan
+│   └── contoh.py
+│
+├── README.md
+├── setup.py
+└── LICENSE
+
+
+---
+
+🎯 Tujuan
+
+Mengedukasi dan membiasakan logika pemrograman menggunakan bahasa lokal.
+
+Membantu anak-anak, pelajar, atau masyarakat umum agar lebih cepat memahami Python.
+
+Proyek open-source untuk eksplorasi dan edukasi, bukan untuk pengembangan profesional berskala besar.
+
+
+
+---
+
+🤝 Kontribusi
+
+Pull request sangat diterima!
+Silakan fork, buat perubahan, dan ajukan PR.
+Gunakan issues untuk ide atau perbaikan.
+
+
+---
+
+📝 Lisensi
+
+Proyek ini menggunakan MIT License.
+
+---
+
+Kalau kamu ingin versi ringan atau ditambahkan badge, dokumentasi PyPI (jika diunggah), atau logo proyek, tinggal beri tahu!
