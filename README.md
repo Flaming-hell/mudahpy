@@ -1,10 +1,9 @@
----
 
+---
 # mudahpy 🇮🇩
-```
-**mudahpy** adalah pustaka Python berbahasa Indonesia yang bertujuan untuk mempermudah pemrograman bagi pemula atau pengguna yang lebih nyaman dengan bahasa Indonesia.  
+### mudahpy adalah pustaka Python berbahasa Indonesia yang bertujuan untuk mempermudah pemrograman bagi pemula atau pengguna yang lebih nyaman dengan bahasa Indonesia.  
 Proyek ini mengubah kata kunci, fungsi umum, dan struktur kontrol seperti `if`, `for`, `while`, `def`, `lambda`, dan lainnya agar lebih mudah dipahami.
-```
+
 ---
 
 ## ✨ Contoh Penggunaan
@@ -93,7 +92,3 @@ Gunakan issues untuk ide atau perbaikan.
 📝 Lisensi
 
 Proyek ini menggunakan MIT License.
-
----
-
-Kalau kamu ingin versi ringan atau ditambahkan badge, dokumentasi PyPI (jika diunggah), atau logo proyek, tinggal beri tahu!
