@@ -34,7 +34,7 @@ def halo(nama):
     tulis("Halo,", nama)
 
 halo("Suji")
-tulis("Penjumlahan:", tambah(3, 5))
+tulis("Penjumlahan:", tambah(3, 5))```
 
 
 ---
