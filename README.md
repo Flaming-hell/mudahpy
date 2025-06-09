@@ -1,10 +1,10 @@
 ---
 
 # mudahpy 🇮🇩
-
+```
 **mudahpy** adalah pustaka Python berbahasa Indonesia yang bertujuan untuk mempermudah pemrograman bagi pemula atau pengguna yang lebih nyaman dengan bahasa Indonesia.  
 Proyek ini mengubah kata kunci, fungsi umum, dan struktur kontrol seperti `if`, `for`, `while`, `def`, `lambda`, dan lainnya agar lebih mudah dipahami.
-
+```
 ---
 
 ## ✨ Contoh Penggunaan
@@ -53,7 +53,7 @@ pip install .
 ---
 
 📁 Struktur Proyek
-
+```
 mudahpy/
 │
 ├── mudahpy/           # Pustaka utama
@@ -65,7 +65,7 @@ mudahpy/
 ├── README.md
 ├── setup.py
 └── LICENSE
-
+```
 
 ---
 
