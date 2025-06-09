@@ -34,9 +34,9 @@ def halo(nama):
     tulis("Halo,", nama)
 
 halo("Suji")
-tulis("Penjumlahan:", tambah(3, 5))```
+tulis("Penjumlahan:", tambah(3, 5))
 
-
+```
 ---
 
 📦 Instalasi
@@ -47,7 +47,7 @@ git clone https://github.com/username/mudahpy.git
 cd mudahpy
 pip install .
 
-(Atau langsung dari direktori lokal saat ngoding, tambahkan ke PYTHONPATH.)
+(Atau langsung dari direktori lokal saat ngoding, tambahkan ke $PYTHONPATH.)
 
 
 ---
