@@ -42,11 +42,11 @@ tulis("Penjumlahan:", tambah(3, 5))
 
 Untuk saat ini, clone dan pasang secara lokal:
 
-git clone https://github.com/username/mudahpy.git
+git clone https://github.com/Flaming-hell/mudahpy.git
 cd mudahpy
 pip install .
 
-(Atau langsung dari direktori lokal saat ngoding, tambahkan ke $PYTHONPATH.)
+(tambahkan $PYTHONPATH.)
 
 
 ---
